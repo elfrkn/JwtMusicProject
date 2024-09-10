@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BDBFFA93-BF18-48DD-A725-F764A800BB55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtMusic.Domain", "Core\JwtMusic.Domain\JwtMusic.Domain.csproj", "{272F7CCE-4892-453F-AEC5-097463610468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DE661888-D140-4D9F-89CF-EF0BC6243547}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtMusic.Persistence", "Infrastructure\JwtMusic.Persistence\JwtMusic.Persistence.csproj", "{3F9C203C-89CF-412F-A7D5-C7BE18FECCE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{28AC7BD6-56DB-4AE4-A606-A58DE40A2090}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtMusic.WebApi", "Presentation\JwtMusic.WebApi\JwtMusic.WebApi.csproj", "{32F7718E-88F9-4EE3-83E7-D8DC827720C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtMusic.Application", "Core\JwtMusic.Application\JwtMusic.Application.csproj", "{6DBAAD35-BFBA-4958-9711-F06D4F87BEFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontends", "Frontends", "{3F7030FE-9736-4835-A74A-DBD18DB0FEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtMusic.WebUI", "Frontends\JwtMusic.WebUI\JwtMusic.WebUI.csproj", "{20479D11-B16A-419B-BD30-211190FE0EED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{272F7CCE-4892-453F-AEC5-097463610468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272F7CCE-4892-453F-AEC5-097463610468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272F7CCE-4892-453F-AEC5-097463610468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272F7CCE-4892-453F-AEC5-097463610468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9C203C-89CF-412F-A7D5-C7BE18FECCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9C203C-89CF-412F-A7D5-C7BE18FECCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9C203C-89CF-412F-A7D5-C7BE18FECCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9C203C-89CF-412F-A7D5-C7BE18FECCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F7718E-88F9-4EE3-83E7-D8DC827720C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F7718E-88F9-4EE3-83E7-D8DC827720C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F7718E-88F9-4EE3-83E7-D8DC827720C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F7718E-88F9-4EE3-83E7-D8DC827720C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBAAD35-BFBA-4958-9711-F06D4F87BEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBAAD35-BFBA-4958-9711-F06D4F87BEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBAAD35-BFBA-4958-9711-F06D4F87BEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBAAD35-BFBA-4958-9711-F06D4F87BEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20479D11-B16A-419B-BD30-211190FE0EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20479D11-B16A-419B-BD30-211190FE0EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20479D11-B16A-419B-BD30-211190FE0EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20479D11-B16A-419B-BD30-211190FE0EED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{272F7CCE-4892-453F-AEC5-097463610468} = {BDBFFA93-BF18-48DD-A725-F764A800BB55}
+		{3F9C203C-89CF-412F-A7D5-C7BE18FECCE6} = {DE661888-D140-4D9F-89CF-EF0BC6243547}
+		{32F7718E-88F9-4EE3-83E7-D8DC827720C8} = {28AC7BD6-56DB-4AE4-A606-A58DE40A2090}
+		{6DBAAD35-BFBA-4958-9711-F06D4F87BEFC} = {BDBFFA93-BF18-48DD-A725-F764A800BB55}
+		{20479D11-B16A-419B-BD30-211190FE0EED} = {3F7030FE-9736-4835-A74A-DBD18DB0FEC6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA24C4D7-DF44-43D2-840F-F512615F4B7B}
+	EndGlobalSection
+EndGlobal
