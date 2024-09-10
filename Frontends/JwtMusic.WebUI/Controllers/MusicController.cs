@@ -10,16 +10,16 @@ using System.Net.Http.Headers;
 namespace JwtMusic.WebUI.Controllers
 {
 
-
+    [Authorize]
     public class MusicController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
-        
+
 
         public MusicController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
-          
+
         }
 
 
